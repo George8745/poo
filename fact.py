@@ -1,3 +1,6 @@
 n = 5
-for i in range(5):
-	print(i)
+total = 1
+for i in reversed(range(5)):
+	total = total * i
+	
+print(total)
