@@ -8,5 +8,11 @@ public class Alumno{
 		System.out.println("Estudiando");
 
 	}
+
+	public String toString(){
+
+		return "Yo soy " + nombre;
+
+	}
 	
 }

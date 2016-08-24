@@ -7,7 +7,8 @@ public class Prog1{
 		pepe.nombre = "Pepe";
 		pepe.edad = 20;
 
-		System.out.println("El es " + pepe.nombre + " y tiene " + pepe.edad);
+		//System.out.println("El es " + pepe.nombre + " y tiene " + pepe.edad);
+		System.out.println(pepe);
 
 	}
 }
