@@ -1,0 +1,8 @@
+Proyecto #1
+
+Consiste en :
+desarrollar un método de ordenamiento que no sea burbuja.
+Y ordenar palabras ascendente o descendente.
+
+EJEMPLO:
+java ordenar pal1 pal2 paln asc o desc 
