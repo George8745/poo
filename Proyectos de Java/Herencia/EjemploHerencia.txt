@@ -1,0 +1,72 @@
+// Herencia
+
+public class Humano {
+
+	private String nombre;
+
+	public void caminar(){
+
+		System.out.println(nombre + " esta caminando desde la clase humano");
+
+	}
+
+	public void setNombre(String nombre){
+
+		this.nombre = nombre;
+
+	}
+
+	public String getNombre(){
+
+		return nombre;	
+
+	} 
+
+}
+
+public class Hombre extends Humano{
+
+	public void afeitarse(){
+
+		System.out.println(getNombre()+" esta afeintandose desde la clase hombre");
+
+	}
+
+}
+
+// Principal
+
+public class Principal{
+
+	public static void main(String args[]){
+
+		Procesos misProcesos = new Procesos();
+		misProcesos.iniciar();
+
+	}
+
+}
+
+// Procesos 
+
+public class Procesos{
+
+	public void iniciar(){
+	
+		// Sin herencia
+
+		Humano humano = new Humano();
+		humano.setNombre("Jorge");
+		humano.caminar();
+
+		System.out.println();
+		// Con herencia
+
+		Hombre hombre = new Hombre();
+		hombre.setNombre("Christian");
+		hombre.caminar();
+		hombre.afeitarse();
+
+	}
+
+}
