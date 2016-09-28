@@ -1,0 +1,2 @@
+[hola, esta, es, una, prueba, para, veficar, el, ordenamiento, de, una, cadena, contenida, en, un, archivo, txt, mayor]
+[veficar, una, una, un, txt, prueba, para, ordenamiento, mayor, hola, esta, es, en, el, de, contenida, cadena, archivo]
